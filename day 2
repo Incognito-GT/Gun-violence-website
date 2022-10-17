@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Introduction</h1>
+      <p>	Have you ever seen the shootings on the news and thought that the next person that would be injured could be you? The people who are shooting schools are gun owners who have easily gained ownership of a firearm and started to shoot crowded areas so that they can get the highest kill rate. My topic is about gun violence which is trying to stop the ownership of guns and not let regular citizens get a hold of such disaster causing machines. This article will give some examples of gun violence, why people think that having guns is needed, and what you can do to advocate to ban guns.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://media12.s-nbcnews.com/i/MSNBC/Components/Video/201905/nn_mhu_colorado_school_shooting_190507_1557279864891.jpg"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img style="max-width:100%;" src="https://www.statista.com/graphic/1/971473/number-k-12-school-shootings-us.jpg"></p>
+    </div>
+  </div>
+        <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 1</h1>
+      <p> Some examples of gun violence is On May 24, 2022, a mass shooting occurred at Robb Elementary School in Uvalde, Texas, United States, where 18-year-old Salvador Ramos fatally shot nineteen students and two teachers, and wounded seventeen others. This is one example of when gun owners misused their rights of owning guns. The shooter rushed to the gun store on his 18 birthday and got ammunition and other stuff and spent well over three thousand dollars. Robert .E .Crimo lll shot and killed seven people and wounded seven others in Lake County, Illinois, at the July 4th parade in Highland Park. Robert Crimo got the guns because he convinced his dad to buy guns for hunting and his dad thought he would only use them for that instead of taking them to a parade on a holiday. He killed many family members and loved ones and devastated many people with relationships with the victims. </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+       <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 2</h1>
+      <p> Many gun owners might think that they need to own guns for protection, but my argument is that if owning guns is banned, who are you going to need protection from? If nobody can own a gun then who will be attacking you with a gun? The only weapon that people can use against you is a knife or some other sharp object. For this you can carry one of the legalized knives, I think that this would be better because there is a very low chance of doing a mass killing spree with only a knife because of the close range that is needed to kill somebody and also the time that it takes to kill somebody. Other gun owners argue that they need them for hunting, but my argument is that just for your hobby you want many potential deaths? Also guns like machine guns and almost military grade weapons are not used for hunting. There are rifles that are sold in Dicks sporting goods, many public shooters don’t buy these guns because of the aim that is needed to kill somebody, the minimalized bullets that can be loaded at once in the gun, and also the long time to reload the gun these will slow down the  amount of deaths that could be caused in a potential shooting but it is still dangerous to let people own them. My solution is to only let guns stay in the ranges and don’t let a single person own the guns but an organization or the range. This would prevent potential deaths being caused by guns and also let many people still enjoy their hobby of hunting. </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 3</h1>
+      <p> If you are also passionate about this topic then there are many ways that you can express that you feel that gun violence is wrong. One example is a protest and you can do this by organizing a group of people who feel the same way about this issue as you. Once you finish this then you start to figure out a plan of where you want to march and who is going to make the posters, what is going to be on the posters, and how long are you going to walk for. This is one example which is going to be very easy if you are the participant who does nothing beforehand and just walks. It would be very hard if you are the one who actually organizes the protest and starts the protest. Another form of advocating could be posting on social media telling people to stop owning guns and to protest that guns should be banned. This is one of the easiest ways of advocating but it still helps. If you are exeptional at art and you like to create things with your hands you could make a sculpture of a painting. There are way more ways of advocating which I haven't mentioned you can advocate in anyway that you wish.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://www.publicbooks.org/wp-content/uploads/2018/04/March-for-Lives-Penn-Ave-Protest-810x648.jpg"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+ <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Conclusion</h1>
+      <p> </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">My scites that I used</h1>
+      <p> Works cited.....</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Facts</h1>
+      <p> Did you know that there are ____ amount of guns owned by american citizens. /n Did you know that there are _____ many deaths due to guns every year.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
