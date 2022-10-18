@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Introduction</h1>
+      <p>	Have you ever seen the shootings on the news and thought that the next person that would be injured could be you? The people who are shooting schools are gun owners who have easily gained ownership of a firearm and started to shoot crowded areas so that they can get the highest kill rate. My topic is about gun violence which is trying to stop the ownership of guns and not let regular citizens get a hold of such disaster causing machines. This article will give some examples of gun violence, why people think that having guns is needed, and what you can do to advocate to ban guns.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://media12.s-nbcnews.com/i/MSNBC/Components/Video/201905/nn_mhu_colorado_school_shooting_190507_1557279864891.jpg"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img style="max-width:100%;" src="https://www.statista.com/graphic/1/971473/number-k-12-school-shootings-us.jpg"></p>
+    </div>
+  </div>
+        <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 1</h1>
+      <p> Some examples of gun violence is On May 24, 2022, a mass shooting occurred at Robb Elementary School in Uvalde, Texas, United States, where 18-year-old Salvador Ramos fatally shot nineteen students and two teachers, and wounded seventeen others. This is one example of when gun owners misused their rights of owning guns. The shooter rushed to the gun store on his 18 birthday and got ammunition and other stuff and spent well over three thousand dollars. Robert .E .Crimo lll shot and killed seven people and wounded seven others in Lake County, Illinois, at the July 4th parade in Highland Park. Robert Crimo got the guns because he convinced his dad to buy guns for hunting and his dad thought he would only use them for that instead of taking them to a parade on a holiday. He killed many family members and loved ones and devastated many people with relationships with the victims. </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img style="max-width:100%;" src="https://assets.nationbuilder.com/nagayeforsheriff/pages/53/attachments/original/1654540654/shutterstock_391851421.jpg?1654540654"></p>
+    </div>
+  </div>
+       <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 2</h1>
+      <p> Many gun owners might think that they need to own guns for protection, but my argument is that if owning guns is banned, who are you going to need protection from? If nobody can own a gun then who will be attacking you with a gun? The only weapon that people can use against you is a knife or some other sharp object. For this you can carry one of the legalized knives, I think that this would be better because there is a very low chance of doing a mass killing spree with only a knife because of the close range that is needed to kill somebody and also the time that it takes to kill somebody. Other gun owners argue that they need them for hunting, but my argument is that just for your hobby you want many potential deaths? Also guns like machine guns and almost military grade weapons are not used for hunting. There are rifles that are sold in Dicks sporting goods, many public shooters don’t buy these guns because of the aim that is needed to kill somebody, the minimalized bullets that can be loaded at once in the gun, and also the long time to reload the gun these will slow down the  amount of deaths that could be caused in a potential shooting but it is still dangerous to let people own them. My solution is to only let guns stay in the ranges and don’t let a single person own the guns but an organization or the range. This would prevent potential deaths being caused by guns and also let many people still enjoy their hobby of hunting. </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="data:image/jpeg;base64,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"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img style="max-width:100%;" src="https://m.media-amazon.com/images/I/31PlF5yXgCL._AC_SY350_.jpg"></p>
+    </div>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Paragraph 3</h1>
+      <p> If you are also passionate about this topic then there are many ways that you can express that you feel that gun violence is wrong. One example is a protest and you can do this by organizing a group of people who feel the same way about this issue as you. Once you finish this then you start to figure out a plan of where you want to march and who is going to make the posters, what is going to be on the posters, and how long are you going to walk for. This is one example which is going to be very easy if you are the participant who does nothing beforehand and just walks. It would be very hard if you are the one who actually organizes the protest and starts the protest. Another form of advocating could be posting on social media telling people to stop owning guns and to protest that guns should be banned. This is one of the easiest ways of advocating but it still helps. If you are exeptional at art and you like to create things with your hands you could make a sculpture of a painting. There are way more ways of advocating which I haven't mentioned you can advocate in anyway that you wish.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://www.publicbooks.org/wp-content/uploads/2018/04/March-for-Lives-Penn-Ave-Protest-810x648.jpg"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img style="max-width:100%;" src="https://nmgprod.s3.amazonaws.com/media/files/7e/27/7e27b85681e7ed2a194110145b4bb21d/cover_image_1601689297.jpg.760x400_q85_crop_upscale.jpg"></p>
+    </div>
+  </div>
+ <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Conclusion</h1>
+      <p> To conclude gun violence is a very serious problem in the current day and I think that there should be an immediate change or else the country will become a very dangerous place to live in. In this webscite I talked about the ways that you can advocate for a topic, some examples of gun violence, and why some gun owners think that they need guns.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://previews.123rf.com/images/vetdoctor/vetdoctor1505/vetdoctor150500119/40585720-a-crazy-looking-man-with-two-guns.jpg"></p>
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img style="max-width:100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/No_guns.svg/1200px-No_guns.svg.png"></p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">My scites that I used</h1>
+      <p> Works cited.....</p>
+    </div>
+    <div class="w3-third w3-container">
+      
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Facts</h1>
+      <p> Did you know that there are ____ amount of guns owned by american citizens. /n Did you know that there are _____ many deaths due to guns every year.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
